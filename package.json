@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "wrangler dev",
-    "deploy": "wrangler deploy",
+    "deploy": "wrangler deploy --keep-vars",
     "check": "pnpm run '/^check:.*/'",
     "check:audit": "pnpm audit",
     "check:cspell": "cspell --no-progress",

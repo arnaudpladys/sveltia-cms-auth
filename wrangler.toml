@@ -2,3 +2,10 @@ name = "sveltia-cms-auth-eiika"
 main = "src/index.js"
 compatibility_date = "2023-03-24"
 keep_vars = true
+
+[vars]
+ALLOWED_DOMAINS = "eiika.co.jp"
+GITHUB_CLIENT_ID = "Ov23liR52B9nEYO4dIMi"
+
+[secrets]
+required = ["GITHUB_CLIENT_SECRET"]

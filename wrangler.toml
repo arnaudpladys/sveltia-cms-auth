@@ -5,7 +5,7 @@ keep_vars = true
 
 [vars]
 ALLOWED_DOMAINS = "eiika.co.jp"
-GITHUB_CLIENT_ID = "Ov23liR52B9nEYO4dIMi"
+GITHUB_CLIENT_ID = "Ov23liR52B9nEY04dIMi"
 
 [secrets]
 required = ["GITHUB_CLIENT_SECRET"]
